@@ -55,21 +55,21 @@ Jupyter Notebooks (if applicable).
 SQL query scripts.
 Data files (if possible) or steps to access them.
 
-##Requirements
+Requirements
 Python 3.8+
 SQL Databases: MySQL, PostgreSQL
 Python Libraries:
 pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
 Kaggle API Key (for data downloading)
 
-##Getting Started
+Getting Started
 Clone the repository:
 git clone <repo-url>
 Install Python libraries:
 pip install -r requirements.txt
 Set up your Kaggle API, download the data, and follow the steps to load and analyze.
 
-##Project Structure
+Project Structure
 |-- data/                     # Raw data and transformed data
 |-- sql_queries/              # SQL scripts for analysis and queries
 |-- notebooks/                # Jupyter notebooks for Python analysis
@@ -77,14 +77,14 @@ Set up your Kaggle API, download the data, and follow the steps to load and anal
 |-- requirements.txt          # List of required Python libraries
 |-- main.py                   # Main script for loading, cleaning, and processing data
 
-##Results and Insights
+Results and Insights
 This section will include your analysis findings:
 
 Sales Insights: Key categories, branches with highest sales, and preferred payment methods.
 Profitability: Insights into the most profitable product categories and locations.
 Customer Behavior: Trends in ratings, payment preferences, and peak shopping hours.
 
-##Future Enhancements
+Future Enhancements
 Possible extensions to this project:
 
 Integration with a dashboard tool (e.g., Power BI or Tableau) for interactive visualization.
@@ -93,6 +93,6 @@ Automation of the data pipeline for real-time data ingestion and analysis.
 License
 This project is licensed under the MIT License.
 
-##Acknowledgments
+Acknowledgments
 Data Source: Kaggle’s Walmart Sales Dataset
 Inspiration: Walmart’s business case studies on sales and supply chain optimization.
